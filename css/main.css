@@ -711,7 +711,6 @@ header {
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--white-text);
 }
 
 .subscribe-form-btn__submit {
