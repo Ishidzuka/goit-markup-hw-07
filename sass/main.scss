@@ -12,10 +12,12 @@
 @import './components/hero/hero-title__button';
 @import './components/about/about';
 @import './components/about/icon-list';
+@import './components/about/about-list';
 @import './components/specialization/special';
 @import './components/specialization/special__head';
 @import './components/specialization/special-list';
 @import './components/specialization/special-list__item';
+@import './components/specialization/special-list__text';
 @import './components/team/team';
 @import './components/team/team-list';
 @import './components/team/social-icons';
@@ -27,3 +29,4 @@
 @import './components/footer/enjoy';
 @import './components/footer/subscribe';
 @import './components/hero/modal/modal';
+@import './components/hero/modal/modalCallMe-form';
