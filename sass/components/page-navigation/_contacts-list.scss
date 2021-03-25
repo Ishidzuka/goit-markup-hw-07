@@ -17,11 +17,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.contacts-list__item:hover,
-.contacts-list__item:focus {
-  color: $hover-color;
+  &:hover,
+  &:focus {
+    color: $hover-color;
+  }
 }
 
 .contacts-list__mail {

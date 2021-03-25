@@ -7,8 +7,10 @@
   letter-spacing: 0.03em;
 }
 
-.address-list__item:first-child {
-  margin: 9px 0px;
+.address-list__item {
+  &:first-child {
+    margin: 9px 0px;
+  }
 }
 
 .address-list__link {

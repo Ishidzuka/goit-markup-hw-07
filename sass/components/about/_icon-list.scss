@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-}
 
-.icon-list li:nth-child(2) {
-  margin: 0px 30px;
-}
+  & li:nth-child(2) {
+    margin: 0px 30px;
+  }
 
-.icon-list li:nth-child(3) {
-  margin-right: 30px;
+  & li:nth-child(3) {
+    margin-right: 30px;
+  }
 }
 
 .icon-list__rect {
