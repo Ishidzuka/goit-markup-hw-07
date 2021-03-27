@@ -19,7 +19,7 @@ img {
 
 ul {
   list-style: none;
-  padding: 0px;
+  padding: 0;
   margin: 0;
 }
 
@@ -55,12 +55,16 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.page-nav,
-.page-nav__list,
-.contacts-list {
+.page-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .page-nav {
@@ -85,6 +89,18 @@ header {
 .page-nav__web {
   color: #2196f3;
   text-decoration: none;
+}
+
+.page-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .page-nav__list li:first-child {
@@ -139,6 +155,15 @@ header {
 
 .contacts-list {
   margin-left: 305px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contacts-list__item {
